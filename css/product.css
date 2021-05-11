@@ -1,0 +1,83 @@
+.product {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    margin-top: -50px;
+    width: 80%;
+    margin: 0px auto;
+}
+.back
+{
+    width: 50px;
+}
+.pic{   
+    grid-area: 1 / 1 / 2 / 2;
+    display: flex;
+    padding-left: 10%;
+    text-decoration: none;
+    padding-bottom: 10%;
+}
+.disc
+{
+    grid-area: 1 / 2 / 2 / 3;
+    font-family: FreeMono, monospace;
+}
+
+.disc label{
+    font-size: 22px;
+}
+
+.disc select{
+    width: 50px;
+    height: 30px;
+    text-align: center;
+    transition: 1s;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+.disc input{
+    width: 50px;
+    height: 25px;
+    text-align: center;
+    transition: 1s;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.disc input:hover, select:hover{
+    border: 2px solid yellow;
+    cursor: pointer;
+}
+
+select
+{
+    outline: none;
+}
+.nameprod
+{
+    font-size: 46px;
+    font-family: FreeMono, monospace;
+}
+.priceprod
+{
+    font-size: 28px;
+    color: red;
+}
+.img-prod
+{
+    width: 75%;
+}
+.discprod
+{
+    color: black;
+    font-family: FreeMono, monospace;
+}
+
+input[type="number"]{
+    width: 30px;
+}

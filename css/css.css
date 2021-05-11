@@ -1,0 +1,212 @@
+*
+{
+margin: 0;
+padding: 0;
+}
+.smalcart{
+    float:right;
+    height:55px;
+    padding: 10px;
+    padding-left: 15px;
+    margin: 10px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    background: #E6DEEA;
+}
+a{
+    text-decoration: none;
+}
+header
+{
+    width: 100%;
+    position:relative;
+    height: 65px;
+    background-color: black;
+}
+.newcoll
+{
+    background-color: yellow;
+    height: 150px;
+}
+.btnnew
+{
+    position: relative;
+    top: -20px;
+    left: 70px;
+    font-size: 25px;
+    padding: 8px;
+    background-color: black;
+    color: white;
+    
+}
+
+.logo
+{
+    position: relative;
+    left: 48%;
+    width: 7%;
+    top: -15px;
+}
+
+.trash-bin
+{
+    position: absolute;
+    top: 15px;
+    right: 1%;
+    height: 40px;
+    transition: 1s;
+}
+
+
+
+.trash-bin:hover{
+    transform: scale(1.1);
+}
+
+.prodRub{
+    color: white;
+    position: absolute;
+    top: 30px;
+    right: 5%;
+    font-family: FreeMono, monospace;
+}
+
+.slider_img
+{
+    border: 1px solid black;
+    width: 1364px;
+    height: 350px;
+}
+.slider__control {
+    position: absolute;
+    top: 50%;
+    /* display: none; */
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    color: #fff;
+    text-align: center;
+    opacity: 0.5;
+    height: 50px;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+  }
+  .btn-prev
+  {
+      background-color: black;
+  }
+.sasles
+{
+    left: 90px;
+    padding: 50px;
+}
+.arrow
+{
+    position: relative;
+    top: 20px;
+    left: 250px;
+    height: 100px;
+}
+.sales
+{
+
+    background-color: #ECEFF1;
+    position:relative;
+    
+    font-family: 'Prata', serif;
+    font-size: 50px;
+    
+}
+.aboutus
+{
+   
+    padding-bottom: 100px;
+    background-color: black;
+    /*background-image: url("/img/MyCollages.jpg");*/
+    text-align: center;
+    border-radius: 5px;
+}
+.us
+{
+    font-family: FreeMono, monospace;
+    text-transform: uppercase;
+    color: white;
+    padding-bottom: 20px;
+}
+/*.aboutus>img*/
+/*{*/
+/*    width: 100%;*/
+/*}*/
+.txtUs
+{
+    position: relative;
+    top: 10%;
+    left: 75%;
+    color:white;
+    width: 250px;
+    padding: 5px;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-family: FreeMono, monospace;
+    background-color: black;
+}
+.txtUs1
+{
+    position: relative;
+    top: 60%;
+    right: 75%;
+    color:white;
+    width: 250px;
+    padding: 5px;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-family: 'Orelega One', cursive;
+    background-color: black;
+}
+.discr
+{
+    background-image: url("/img/MyCollages.jpg");
+    height: 1600px;
+}
+
+.aboutuspic{
+    width: 30%;
+}
+
+.txtUs
+{
+    position: relative;
+    top: 15%;
+    left: 75%;
+    width: 250px;
+    color: whitesmoke;
+    background-color:black ;
+    font-family: FreeMono, monospace;
+}
+
+.ps
+{
+    font-family: FreeMono, monospace;
+    color: yellow;
+}
+
+.ps a{
+    color: yellow;
+}
+
+.foots
+{
+    padding: 140px;
+    height: 50px;
+}
+
+footer{
+    background-color: black;
+}
+
+.footer a{
+    display: flex;
+    flex-wrap: wrap;
+}

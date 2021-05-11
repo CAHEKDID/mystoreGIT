@@ -1,0 +1,227 @@
+.contproduct
+{
+    margin: 50px;
+}
+
+.table_price {
+    border: none;
+    margin: 0px auto;
+    width: 90%;
+    text-align: center;
+    font-family: "Lucida Grande", sans-serif;
+}
+.table_price caption {
+    background: yellow;
+    /*border-top-left-radius: 10px;*/
+    /*border-top-right-radius: 10px;*/
+    padding: 10px;
+    color: white;
+    font-family: "Roboto Slab",serif;
+    font-style: normal;
+    font-size: 26px;
+    text-align: center;
+    margin: 0;
+}
+.table_price td, .table_price th {
+    padding: 10px;
+    border: none;
+
+}
+.table_price th {
+    /*text-align: left;*/
+    text-align: center;
+    font-size: 18px;
+}
+
+.table_price td:last-of-type {
+    text-align: center;
+}
+/*.table_price a {*/
+/*    !*display: inline-block;*!*/
+/*    padding: 5px 10px;*/
+/*    !*background: yellow;*!*/
+/*    !*box-shadow: 2px 2px 0 0 black   ;*!*/
+/*    position: relative;*/
+/*}*/
+/*.table_price a:hover {*/
+/*    box-shadow: none;*/
+/*    top: 2px;*/
+/*    left: 2px;*/
+/*}*/
+.basket
+{
+    text-align: center;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+.order-img
+{
+    width: 150px;
+}
+.order-name
+{
+    font-size: 18px;
+}
+.orderprice
+{
+    font-size: 18px;
+    border: 1px solid black;
+}
+.buy
+{
+    box-sizing: border-box;
+    text-align: center;
+    width: 200px;
+    padding: 25px;
+    margin: 25px;
+    border: hidden;
+    border-radius: 10px;
+    background-color: #232323;
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: xx-large;
+    transition: 0.5s all;
+}
+.buy:hover
+{
+    transform: scale(0.9);
+}
+.buy:active
+{
+    color: black;
+    box-sizing: border-box;
+    background-color: yellow;
+}
+
+.title
+{
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+}
+.btn-add
+{
+    color: #232323;
+    background: transparent;
+    border: 1px solid #232323;
+    position: relative;
+    font-size: 14px;
+    letter-spacing: .3em;
+    font-family: 'Montserrat', sans-serif;
+    padding: 17px 34px 17px 39px;
+    transition: .2s ease-in-out;
+    cursor: pointer;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.btn-add:before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 100%;
+    height: 100%;
+    background: yellow;
+    z-index: -1;
+    transition: .25s ease;
+    transform: translate(0, 0);
+}
+.btn-add:hover:before {
+    transform: translate(4px, 4px);
+}
+.h1basket
+{
+    text-align: center;
+}
+.del-btn
+{
+    border: none;
+    font-size: xx-large;
+    background-color: white;
+}
+/*.picus*/
+/*{*/
+/*    position: relative;*/
+/*    left: 3%;*/
+/*}*/
+\00D7
+{
+
+}
+.chooseAll
+{
+font-size: 25px;
+}
+.p-choose
+{
+    margin-top: 15px;
+    font-size: 20px;
+}
+.choose
+{
+    margin: 0;
+    font-family: 'Roboto',Arial,sans-serif;
+    font-size: 60%;
+    height: 30px;
+    padding: 0 20px;
+    /*font-size: 16px;*/
+    line-height: 1.33;
+    width: 40%;
+    border: 1px solid black;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    outline: none;
+    -webkit-appearance: none;
+    border-radius: 0;
+}
+.choose:hover
+{
+    border-radius: 5px;
+}
+.div1
+{
+    grid-area: 1 / 1 / 6 / 2;
+}
+[data-tooltip] {
+    position: relative; /* Относительное позиционирование */
+}
+[data-tooltip]::after {
+    content: attr(data-tooltip); /* Выводим текст */
+    position: absolute; /* Абсолютное позиционирование */
+    width: 300px; /* Ширина подсказки */
+    left: 0; top: 0; /* Положение подсказки */
+    background: yellow; /* желтый цвет фона */
+    border-radius: 5px;
+    color: #232323; /* Цвет текста */
+    padding: 0.5em; /* Поля вокруг текста */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Параметры тени */
+    pointer-events: none; /* Подсказка */
+    opacity: 0; /* Подсказка невидима */
+    transition: 0.5s; /* Время появления подсказки */
+}
+[data-tooltip]:hover::after {
+    opacity: 1; /* Показываем подсказку */
+    top: 2em; /* Положение подсказки */
+}
+.div2 { grid-area: 1 / 2 / 6 / 5; }
+.div3 { grid-area: 1 / 5 / 6 / 6; }
+
+.contproduct img{
+    transition: 1s;
+    width: 140px;
+    height: 150px;
+}
+
+.contproduct img:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.contproduct p{
+    text-align: right;
+    font-size: 26px;
+    margin-right: 120px;
+}

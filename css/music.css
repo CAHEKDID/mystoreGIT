@@ -1,0 +1,13 @@
+.music{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: black;
+    padding-top: 50px;
+}
+
+.music img{
+    width: 350px;
+    margin: 20px;
+}
+

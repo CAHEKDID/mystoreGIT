@@ -1,0 +1,46 @@
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+.post
+{
+    text-align: center;
+    margin: 20px;
+    transition: 1s;
+}
+
+.post:hover
+{
+    transform: scale(1.1);
+    border-radius: 25px;
+    
+    cursor: pointer;
+}
+
+.postImg
+{
+    width: 333px;
+    height:350px;
+}
+.postTxt
+{
+    text-align: center;
+    font-family: FreeMono, monospace;
+    color: black;
+    font-weight: bold;
+}
+.postColor
+{
+    color: #BBBBBB;
+}
+
+.postPrice
+{
+    text-shadow: black 0 0 3px;
+    color: rgb(231, 231, 91);
+    font-weight: bold;
+    font-family: FreeMono, monospace;
+}
